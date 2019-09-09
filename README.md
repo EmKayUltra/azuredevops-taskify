@@ -9,7 +9,9 @@ Very basic task time tracker/logger for tasks.
 Install the module as you would any other from the Powershell Admin terminal.  
 
 It's recommended that you set an environment variable ("azuredevops-taskify.AZURE_BASE_URL") to hold the URL to your Azure OnPrem instance.
+
 `> $urlToYourAzDevOServerInstance = ""`
+
 `> [System.Environment]::SetEnvironmentVariable("azuredevops-taskify.AZURE_BASE_URL", $urlToYourAzDevOServerInstance, [System.EnvironmentVariableTarget]::User) | Write-Verbose;`
 
 Once installed, you'll be able to pretty quickly log your hours into your workitems with a timer.
