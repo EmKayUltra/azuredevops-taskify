@@ -1,4 +1,4 @@
-# README - AzureDevOps Taskify CLI
+# AzureDevOps Taskify CLI
 
 ## Requirements
 Requires an installation of Azure DevOps Server. Currently, it only supports integrated Windows authentication.
